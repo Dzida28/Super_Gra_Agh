@@ -48,28 +48,27 @@ Laska Dusz
 KlÄ…twa defragmentacji duszy
 Peleryna z duÅ¼ym 'S' w diamencie
 ...
-lotr_weapon1
-lotr_attack1
-lotr_armor1
-lotr_weapon2
-lotr_attack2
-lotr_armor2
-lotr_weapon3
-lotr_attack3
-lotr_armor3
-lotr_weapon4
-lotr_attack4
-lotr_armor4
-lotr_weapon5
-lotr_attack5
-lotr_armor5
-lotr_weapon6
-lotr_attack6
-lotr_armor6
-lotr_weapon7
-lotr_attack7
-lotr_armor7
-lotr_weapon8
-lotr_attack8
-lotr_armor8
-...
+Sztylet Brutusa
+DŸgniêcie sztyletem
+Zbroja kota
+¯¹de³ko
+U¿¹dlenie
+Lekka zbroja ³otra
+Gladius
+Cios rzymski
+Lekka rzymska tunika
+Egipski krótki miecz
+Cios egipski
+Miedziana zbroja
+Krótki ³uk elficki
+Strza³ z elfickiego ³uku
+Elfika zbroja
+Dwa miecze nind¿y
+Cios dwoma mieczami nind¿y
+Kostium nind¿y
+Szuriken
+Rzut szurikenem
+Perska tunika
+Zatruty miecz
+Cios zatrutym mieczem
+Szata ze skóry Kobry...
