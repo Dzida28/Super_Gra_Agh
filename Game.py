@@ -52,7 +52,6 @@ while True:
             break
 
     player.load_names(int(klasa))
-
     stru = Struktura(klasa + ".txt")
 
     # wczytywanie obrazka z bossem

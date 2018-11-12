@@ -278,14 +278,14 @@ Chcesz sprawdzi*c czy aby nic nie umkn*e*lo Twojej uwagi.\nId*ac asekuracyjnie p
 None 
 Skarbcu
 Wzmacniane, masywne drzwi
-Rozgl*adasz si*e dooko*la. Blask sztabek z*lota a*z cie o*slepia.\n*Za*lujesz, *ze nie masz przy sobie *zadnej torby.
-Rab*oj sztaby
+Rozgl*adasz si*e dooko*la. Blask sztabek z*lota a*z cie o*slepia.\nOprócz kosztowności znajduje się tu również mały składzik alchemiczny. \n*Za*lujesz, *ze nie masz przy sobie *zadnej torby.
+Ukradnij sztaby złota
 Niestety nic nie jest takie proste. Zza naro*znika wychodzi wartownik.\nRaczej nie przystanie na twoj*a propozycj*e p*o*l na p*o*l.
 0
 0
 Wartownik
 We*x diamenty
-Upychasz diamenty w kieszeniach. Byle wi*ecej. Zaczynasz marzy*c o w*lasnym koniu.\nTeraz b*edze cie na niego sta*c
+Upychasz diamenty w kieszeniach. Byle wi*ecej.\nZaczynasz marzy*c o w*lasnym koniu.\nTeraz b*edze cie na niego sta*c
 30
 0
 None
@@ -294,10 +294,10 @@ Niestety si*la twoich biceps*ow nie wystarcza na wy*lamanie drzwiczek tej szafki
 0
 15
 None
-Niszcz
-Wszystkiego nie dasz rady zabra*c, ale dlaczego ma to wpa*s*c w r*ece twoich wrog*ow. *Lapesz za stoj*acy pod *scian*a kilof i niszczysz co tylko si*e da.
+Napij się jednego z eliksirów
+Czujesz jak ciepło rozchodzi się po całym Twoim ciele.
 0
-0
+-30
 None
 Sypialni kr*olewskiej
 Bogato zdobione drzwi 

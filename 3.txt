@@ -1,324 +1,320 @@
-#Pokoju startowym
-To jest pok*oj, z kt*orego zaczynasz swoj*a przygod*e.
-Ogrod przed zamkiem 2
-Drzwi 1
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
-5
-3
+﻿#Ogrodach zamkowych
+Budzisz się na zimnej i mokrej (od rosy? a może jednak nie?) trawie. Nie masz poj*ecia jak si*e tu znalazłeś.\nMasz okropnego kaca. Ostatnie co sobie przypominasz to ostry melanż w oberży pod napalonym dzikiem.\nCzujesz, że musisz wydostać się z tego miejsca.\nZataczając się, wybiegasz w ciemno*s*c…
+Sporych rozmiar*ow komnacie
+Du*ze, dwuskrzyd*lowe drzwi
+Komnata robi na tobie spore wra*zenie.\nNajprawdopodobniej to tu kiedy*s przyjmowano gości przychodzących na licznie organizowane bale.\nDostrzegasz liczne wieszaki, a na nich lekko przykurzone szaty i innego rodzaju odzienie.\nNa targu w Novigradzie dostaniesz za to jakieś 12 koron.\nW kącie stoi drewniana skrzynia, a nad nią wisi lampion.
+Zbadaj ubranie
+Ubierasz jeden z płaszczy zawieszonych na wieszakach.\nTeraz jest ci naprawdę ciepło.
+10
+-5
+None
+Zbadaj skrzynie
+Podchodzisz do skrzyni. Próbujesz ją otworzyć, ale zardzewiałe zawiasy nie puszczają wcale tak łatwo.\nDobrze, że zawsze nosisz ze sobą wytrych na takie okazje. W końcu udaje ci się otworzyć skrzynię, ale w środku nie znajdujesz nic wartościowego.\nZe złości kopiesz w skrzynię i łamiesz palca u nogi.
+0
+10
+None
+Zbadaj lampion
+Zdejm*ojesz lampion ze *sciany, w nadziei, *ze uda ci si*e go zapali*c.\nJednak nic z tego. Zapa*lki, kt*ore kiedyś ukradłeś, zamok*ly.
+0
+0
+None
+Przejrzyj si*e w lustrze
+Zdajesz sobie spraw*e jak brudny i jednocze*snie ca*ly we krwi jeste*s.\n Pr*ob*ojesz wytrze*c chocia*z twarz. Nagle w lustrze dostrzegasz, *ze nie jeste*s sam.\nZa tob*a stoi dziwnie ubrany jegomo*s*c i powoli rozpina rozporek...
+0
+0
+Jegomość
+Zbrojowni
+Okute żelazem drzwi
+Wchodz*ac rozgl*adasz si*e dooko*la.\nNa *scianach i na pod*lodze le*z*a zbroje i bro*n wszelkiego rodzaju.\nZacierasz ręce. Jednak Twój entuzjazm szybko mija.\nSprzęty są w większości zardzewiałe. Gdyby Janusz złomiarz to widział....
+Poszukaj użytecznego wyposażenia
+Zdoby*le*s cenny przedmiot w dobrym stanie, kt*ory mo*ze ci si*e potem przyda*c w walce lub jako narzędzie perswazji podczas rabunku.
+0
+0
+Item
+Weź do ręki zardzewiały miecz
+Miecz okazuje się bezużyteczny. Udało Ci się jedynie zranić w rękę.\n(obyś nie zachorował na tężec)
+0
+10
+None
+Podnieś leżący na ziemi sztylet
+Podnosisz z ziemi obiecuj*aco wygl*adaj*acy sztylet.\nSprawdzasz ostro*s*c i natychmiast wypuszczasz sztylet z r*ak. Jest tak ostry, *ze Twoja sk*ora w kontakcie z nim zachowa*la si*e jak podgrzane mas*lo.\nTwoja lewa r*eka mocno krwawi.
+0
+15
+None
+Podejd*x do *sciany
+Na *scianie wisi sporo r*o*znego rodzaju plan*ow zwi*azanych z kuciem broni.\nUdaje ci si*e cz*e*s*c zapami*eta*c.\nJe*sli uda ci si*e wydosta*c b*edziesz m*og*lje okazyjnie sprzedać.
+20
+0
+None
+Lochu
+Kamienne wej*scie zamykane opuszczan*a krat*a.
+Wzdrygasz si*e. W k*acie pod *scian*a zauwa*zasz szcz*atki ko*sci nieznanego pochodzenia.\nJest bardzo wilgotno i duszno. Z sufitu skapuje woda.\nNa pierwszy rzut oka nie ma tu nic co mog*loby ci si*e przyda*c.\nJednak po chwili, gdy oczy nieco przyzwyczajaj*a si*e do panuj*acego tu p*o*lmroku dostrzegasz zapisan*a na *scianie wapnem cyfr*e.
+Podejd*x do *sciany
+Podchodz*ac potykasz si*e o le*z*acy na pod*lodze gruz. Zrani*le*s si*e w kolano.\nTeraz jednak mo*zesz odczyta*c napis na *scianie:
+0
+10
 Code
-Akcja 2.2
-Wynik 2.2
-37
+Zbadaj krat*e 
+Jeste*s bardzo ciekaw mechanizmu, dzi*eki kt*oremu mo*zna podnosi*c krat*e.\nJeste*s do tego stopnia ciekawy, *ze zapominaj*ac o ostro*zno*sci ze wszystkich si*l pr*obujesz j*a op*o*sci*c.\nUdaje ci si*e to. Krata z hukiem spada prosto na Twoj*a stop*e.
+5
+10
+None
+Schyl si*e
+Pod stopami dojrza*le*s co*s ciekawego. Podnosisz to i nie wierzysz w*lasnym oczom.
 0
+0
+Item
+Napij si*e skapuj*acej wody
+Woda jako*s dziwnie smakuje i zaczynasz *za*lowa*c swojej decyzji.\nNie dzia*la najlepiej na tw*oj organizm.
+0
+10
 None
-Akcja 3.2
-Wynik 3.2
+Sali tronowej
+Pot*e*zne, poz*lacane drzwi
+Wchodzisz do olbrzymiej komnaty. Ca*le wn*etrze jest bardzo bogato zdobione. Mają rozmach…\nNa *scianach wisz*a chor*agwie i sztandary.\nW boku sali znajduje si*e rze*xba przedstawiaj*a a rycerza.
+Dotknij rze*xby
+Z wn*e trza kamienia s*lycha*c pomruk.\nPrzyzwa*e*s ducha, kt*ory nie jest rad z Twojego towarzystwa.
 0
 0
-None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Potwor
-Ogrod przed zamkiem 3
-Drzwi 2
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
-50
-50
-None
-Akcja 2.2
-Wynik 2.2
-50
-50
-None
-Akcja 3.2
-Wynik 3.2
+Duch
+Usi*ad*x na tronie
+Ach to tak się czuje burżuazja. Wyobra*zasz sobie jakby to by*lo rz*adzić cechem złodziei.\nTwoje morale od razu podnosz*a si*e.
 20
-100
-None
-Akcja 4.2
-Wynik 4.2
-1000
 0
 None
-Ogrod przed zamkiem 4
-Drzwi 3
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
+Zbadaj sztandary
+Po kolei ogl*adasz sztandary. Jeden ci si*e wyj*atkowo spodoba*l.\nPostanawiasz zabra*c go ze sob*a. Jednak tym dzia*laniem zak*lucasz spok*oj ducha kr*ola.\nAby zabra*c sztandar musisz go najpierw pokona*c.
+0
+0
+Duch kr*ola
+Podejd*x do *zyrandola 
+Wielkie diamentowe *zyrandole zwieszaj*a si*e do*s*c nisko nad ziemi*a.\nS*a w zasi*egu Twoich r*ak. Zawsze chcia*le*s to zrobi*c.\nNie mija chwila jak le*zysz obok zupe*lnie rozbitego *zyrandola z bol*acymi plecami.\nMimo wszystko warto by*lo…
+5
+10
+None
+Kuchni
+Bia*le, drewniane drzwi
+Rozgl*adasz si*e po sporej wielko*sci pomieszczeniu.\nW zasadzie ca*l*a jego powieszchni*e zajmuj*a blaty.\nNa *Scianach porozwieszane s*a r*o*znej wielko*sci garnki i chochle. Do czasu. Teraz są w Twoim plecaku.\nPo Twojej lewej stronie stoj*a drewniane beczki, a nad nimi wisz*a pozamykane szafki.
+Zbadaj beczk*e
+Po podwa*zeniu g*ornej cz*e*sci beczki okazuje si*e, *ze w *srodku znajduje si*e pyszne, stare wino.\nOczywi*scie nie wypada si*e nie pocz*estowa*c (zalać się do nieprzytomności).\nWino ci*e rozgrzewa i dodaje odwagi.
+10
+-2
+None
+Zbadaj szafk*e
+Otwierasz szafk*e w nadziei znalezienia jakiego*s jedzenia, ale jedyne co ukazuje si*e Twoim oczom to zdech*ly szczur.\nJego zapach powoduje, *ze robi ci si*e niedobrze.\nMusisz usi*a*s*c by doj*s*c do siebie. Po chwili namysłu zabierasz go ze sobą.
+5
+10
+None
+Otw*orz klap*e w pod*lodze
+Potykasz si*e i wpadasz do niewielkiej jamy.\nLe*zysz na przegni*lych ziemniakach. Mocno si*e pot*luk*le*s, ale op*laci*lo si*e.\nObok Ciebie le*zy karteczka z cyfr*a:
+5
+5
+Code
+Zajrzyj do wielkiego garnka
+W garnku niczego ciekawego nie ma. Jest zupe*lnie pusty.
+0
+0
+None
+Jadalni
+Drewniane drzwi z wyrze*xbionym widelcem i *ly*zk*a
+Masz wra*zenie jakby to miejsce zosta*lo co dopiero opuszczone przez biesiadnik*ow.\nOgromny drewniany st*o*l w kszta*lcie prostok*ata po brzegi zastawiony jest r*o*znego rodzaju naczyniami i srebrn*a zastaw*a. 
+Zbadaj przedmiot
+Zyska*le*s kolejny, cenny ekwipunek.
+0
+0
+Item
+Podejd*x do sto*lu 
+Zjadasz resztki jedzenia, kt*ore osta*ly si*e po uczcie szczur*ow.\nNie by*l to najlepszy pomys*l. Zaczyna bole*c ci*e brzuch.
+0
+8
+None
+Podnie*s talerz
+Pod talerzem znajdujesz wyryt*a w drewnie cyfr*e. Talerz chowasz do plecaka.
+30
+0
+Code
+Pchnij *scian*e
+W zamkach tak ju*z jest, *ze nigdy nic nie wiadomo. Sam wiesz o tym najlepiej.\nJednak w tym wypadku *sciana okaza*la si*e by*c poprostu *scian*a.
+0
+0
+None
+Sali balowej
+Ogromne, poz*lacane drzwi
+Rozgl*adasz si*e po olbrzymiej sali, w kt*orej niegdy*s odbywa*ly si*e liczne przyj*ecia i bale.\nZastanawiasz się co by tu można “pożyczyć”.\nNa *scianach wisz*a obrazy, a na pod*lodze le*zy sporo ma*lych karteczek ze znajduj*acymi si*e na nich imionami go*sci.
+Zbadaj obraz
+Odchylasz obraz w nadziei zobaczenia ukrytej za nim tajnej skrytki,\nlecz pordzewia*le już, wisz*ace tu od setek lat haki puszczaj*a i wielki obraz spada ci prosto na g*low*e.
+0
+10
+None
+Podnie*s karteczki
+Zbierasz z pod*logi porozrzucane karteczki.\nW wi*ekszo*sci znajduj*a si*e na nich imiona mo*znow*ladc*ow, ale na jednej znajduje si*e tajemnicza cyfra:
+30
+0
+Code
+Podejd*x do stanowiska orkiestry
+Rozgl*adasz si*e w poszukiwaniu czego*s, co mog*lo by ci si*e przyda*c.\nNiestetu opr*ocz poprzewracanych b*ebn*ow i innych instrument*ow nic tutaj nie ma, a jednak złota trąbka cyk do plecaka.
 5
 0
 None
-Akcja 2.2
-Wynik 2.2
+Zatańcz walca
+Zastanawiasz jak można być tak upośledzonym żeby pląsać w kółko po podłodze.
 0
+0
+None
+Kaplicy zamkowej
+Przeszklone drzwi
+Czujesz tajemniczy klimat grozy tego miejsca.\nStare drewniane *lawki trzeszcz*a z*lowieszczo.\nWidoczno*s*c jest bardzo ma*la, z powodu ci*agle tl*acego si*e kadzid*la.
+Zga*s kadzid*lo
+Nagle s*lyszysz szmer. Odwracasz si*e.\nNie wiadomo jak si*e tutaj pojawi*l, ale zdecydowanie nie ma przyjaznych zamiar*ow. 
+0
+0
+Mnich
+Usi*ad*x w *lawce
+Chwil*e odpoczywasz i jednicze*snie znajdujesz zagatkow*a ksi*a*zeczk*e.\nMo*ze ci si*e do czego*s przyda*c (Plecak staje się coraz cięższy).
+30
+1
+None
+Pom*odl si*e
+Twoja modlitwa podoba si*e Bogu, kt*ory podarowuje ci wspania*ly przedmiot.\nNo dobra sam go sobie wziąłeś.
+0
+0
+Item
+Podejd*x do o*ltarza
+Z*lote kielichy mog*lyby by*c dobrym *lupem, ale jeste*s honorowym łotrem, przestrzegaj*acym kodeksu,\nwi*ec tam gdzie leżały nie zostawiasz nic poza wizytówką: “Spóźniłeś się”.
+10
+0
+None
+Bibliotece zamkowej
+Ciemnobrązowe, drewniane drzwi
+Jest tu cicho i spokojnie. Drewniana pod*loga delikatnie skrzypi pod Twoimi stopami.\nW którą stronę nie spojrzysz wsz*edzie znajduj*a si*e rega*ly z ksi*a*zkami.
+Zbadaj rega*l po prawej
+Z zainteresowaniem ogl*adasz kolejne p*o*lki z ksi*a*zkami.\nJedna szczeg*olnie przyci*aga Twoj*a uwag*e. Jest to wielka ksi*ega z obrazkami dla dorosłych.\nNigdy jako*s specjalnie si*e tymi sprawami nie interesowa*le*s, wi*ec otwierasz ksi*eg*e na losowej stronie i przeglądasz zawartość.\nZastanawiasz się co właściwie robiłeś przez całe swoje dotychczasowe życie.\nDociera do Ciebie jak wiele straciłeś. To powala ci*e na ziemi*e.
+0
+10
+None
+Zbadaj rega*l po lewej
+Wszystkie ksi*a*zki wydaj*a ci si*e podobne. Opr*ocz jednej.\nOtwierasz j*a i przegl*adasz. Jedna strona jest zupe*lnie pusta, widnieje na niej tylko jeden napis:
+0
+0
+Code
+Zbadaj szuflady w biurku
+Otwierasz jedn*a z szuflad w biurku i nie wierzysz w*lasnym oczom.
+0
+0
+Item
+Zbadaj papiery na biurku
+Przegl*adasz dok*ladnie kolejne kartki, jednak nie znajduje si*e na nich nic ciekawego.
+0
+0
+None
+*La*xniach kr*olewskich
+Marmurowe drzwi
+*La*xnia ca*la wy*lo*zona jest marmurowymi kafelkami. Znajduje si*e tu kilka pewnego rodzaju basen*ow.\nW k*acie pi*etrz*a si*e stosy r*ecznik*ow, które nie wyglądają na wyprane.\nPrzypomina ci się dzieciństwo.
+Podejd*x do basenu
+Podchodz*ac oczywi*scie po*slizgn*a*le*s si*e na idealnie g*ladkim marmurze i wyl*adowa*le*s po pas w wodzie.\nJeste*s totalnie przemoczony i zaczyna ci by*c badzo zimno.
+0
+15
+None
+Zbadaj stos r*ecznik*ow
+Nic ciekawego nie dostrzegasz, ale aby upewni*c si*e czy przypadkiem nie ma jakiego*s tajnego przej*scia,\npodnisisz kilka ze stosu. Nagle za tob*a pojawia si*e zdenerwowana do granic mo*zliwo*sci sprz*ataczka.\nBez walki si*e nie obejdzie.
+0
+0
+Sprz*ataczka
+Zbadaj szafk*e
+W szafce znajduj*a si*e rzeczy takie jak myd*la i wonno*sci. Zabierasz kilka ze sob*a.\nW ko*ncu higiena wa*zna rzecz.\nNie no bez przesady, bierzesz to po to aby sprzedać z zyskiem.
 20
+0
 None
-Akcja 3.2
-Wynik 3.2
+Umyj się
+Zmieniasz jednak zdanie. Mycie nie jest dla Ciebie.
 0
 0
 None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 5
-Drzwi 4
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
+Cmentarz
+Okute *zelazem drzwi
+Wychodzisz na *swie*ze powietrze. Znajdujesz si*e na pewnego rodzaju dziedzi*ncu poro*sni*etym wysok*a traw*a.\nWszystko dooko*la jest jakby szare, bez *zycia.\nNagle dostrzegasz, *ze z ziemi wystaj*a krzy*ze.\nTo nie mo*ze by*c nic innego. To cmentarz…
+Podejd*x do najbli*zszego grobu, może jeszcze nikt go nie splądrował.\nPodchodzisz powoli i nic si*e nie dzieje…
+Podejd*x do dalszego grobu
+Nagle p*lyta grobu, którą właśnie miałeś podnieść, odsuwa si*e, a ze *srodla wychodzi nieumar*ly.
+0
+0
+Nieumar*ly
+Schyl si*e
+W trawie le*zy jaki*s przedmiot. Podnosisz go. Zastanawiasz si*e jak m*og*l si*e tu znale*x*c.
+0
+0
+Item
+Rzu*c kamieniem w ciemno*s*c
+Nie wiesz po co, ale wyrzucasz podniesiony z ziemi kamie*n. Mija chwila.\nNajdziwniejsze jest to, *ze nie s*lysza*le*s uderzenia kamienia o ziemi*e.\nNagle ten sam kamie*n trafia ci*e prosto w g*low*e. Nawet nie chcesz wiedzie*c jak to si*e sta*lo.
+0
+10
+None
+Ukrytej komnacie
+Tajemne przej*scie ukryte w *scianie
+Znajdujesz si*e w ma*lym pomieszczeniu. Jest tu zaledwie kilka przedmiot*ow.\nWarto sprawdzi*c czy co*s ci si*e nie przyda.
+Zbadaj stolik
+Na stoliku nie ma w zasadzie niczego opr*ocz ka*lamarza i pi*ora. Zagl*adasz jeszcze pod blat.\nMasz szcz*e*scie, *ze na to wpad*le*s, bo dostrzegasz wyryty napis:
+0
+0
+Code
+Przeszukaj szafk*e 
+Otwieraj*ac szafk*e wyp*loszy*le*s *spi*ace nietoperze.\nPrzestraszy*le*s si*e tak bardzo, *ze nawet nie zagl*adn*a*le*s do *srodka.
+0
 5
-0
 None
-Akcja 2.2
-Wynik 2.2
+Rozejrzyj si*e 
+Masz szcz*e*scie. W k*acie zauwa*zasz co*s bardzo przydatnego. Zacierasz ręce.
 0
+0
+Item
+Przejd*x si*e po pomieszczeniu
+Chcesz sprawdzi*c, czy aby wszystkie ruchomości z pokoju leżą bezpiecznie w Twoim plecaku.\nId*ac asekuracyjnie przytrzymujesz si*e *sciany i rozcinasz sobie r*ek*e o wystaj*acy gwóźdź.
+0
+15
+None
+Skarbcu
+Wzmacniane, masywne drzwi
+Rozgl*adasz si*e dooko*la. Blask sztabek z*lota a*z Cię o*slepia.\nDobrze, że zawsze nosisz ze sobą dodatkową torbę na takie fanty.
+Rab*oj sztaby
+Niestety nic nie jest takie proste. Zza naro*znika wychodzi wartownik. Od razu dostaje sztabą w twarz\nRaczej nie przystaniesz na propozycj*e p*o*l na p*o*l.
 20
-None
-Akcja 3.2
-Wynik 3.2
-0
 0
 None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 6
-Drzwi 5
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
-5
-0
-None
-Akcja 2.2
-Wynik 2.2
-0
+We*x diamenty
+Upychasz diamenty w kieszeniach. Byle wi*ecej. Zaczynasz marzy*c o w*lasnym niewolniku.\nTeraz b*edze Cię na niego sta*c.
 20
-None
-Akcja 3.2
-Wynik 3.2
-0
 0
 None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 7
-Drzwi 6
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
-5
+Sprawd*x pancern*a szafk*e
+Niestety si*la Twoich biceps*ow nie wystarcza na wy*lamanie drzwiczek tej szafki. Ale po to nosisz łom w wewnętrznej kieszeni majtek.\nMocowa*le*s si*e z nimi ponad 15 minut i mocno si*e zm*eczy*le*s. Ale łomu nie wyciągnąłeś.
 0
+10
 None
-Akcja 2.2
-Wynik 2.2
-0
-20
-None
-Akcja 3.2
-Wynik 3.2
+Zadbaj o dobro interesu
+Wszystkiego nie dasz rady zabra*c, ale dlaczego ma to wpa*s*c w r*ece konkurencji.\n*Lapesz za stoj*acy pod *scian*a kilof i niszczysz wszystko.
 0
 0
 None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 8
-Drzwi 7
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
-5
+Sypialni kr*olewskiej
+Bogato zdobione drzwi
+Znajdujesz si*e w sypialni kr*olewskiej. *Swiadczy o tym, stoj*ace na *srodku, wielkie *lo*ze z baldachimem.\nOpr*ocz tego za kotar*a jak si*e domy*slasz znajduje si*e garderoba.
+Po*l*o*z si*e 
+Jeste*s na tyle zm*eczony, *ze kr*otka drzemka na pewno ci nie zaszkodzi. Zasypiając rozmyślasz kto wcześniej na tym łożu się… spał.
 0
+-20
 None
-Akcja 2.2
-Wynik 2.2
-0
-20
-None
-Akcja 3.2
-Wynik 3.2
+Zbadaj garderob*e
+W garderobie nie znajdujesz nic opr*ocz ubra*n. Kto by si*e spodziewa*l…
 0
 0
 None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 9
-Drzwi 8
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
-50
-50
+Zbadaj Toaletk*e
+Na Toaletce stoi du*ze lustro. Przegl*adasz po kolei szufladki z bi*zuteri*a i zastanawiasz si*e do kogo mog*la nale*ze*c zanim zaczęły należeć do Ciebie.\nNie musisz d*lugo czeka*c na odpowied*x,\nbo nagle pojawia si*e duch oburzonej kr*olowej. 
+0
+0
+Duch kr*olowej
+Zbadaj przestrze*n pod *ló*zkiem
+Zagl*adasz pod to jak*ze nienaturalnie du*ze *lo*ze.\nJednak opr*ocz paj*aka, kt*ory gryzie ci*e w palec nie ma tam nic.
+0
+10
 None
-Akcja 2.2
-Wynik 2.2
-50
-50
-None
-Akcja 3.2
-Wynik 3.2
-20
-100
-None
-Akcja 4.2
-Wynik 4.2
-1000
-0
-None
-Ogrod przed zamkiem 10
-Drzwi 9
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
-5
-0
-None
-Akcja 2.2
-Wynik 2.2
-0
-20
-None
-Akcja 3.2
-Wynik 3.2
-0
-0
-None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 11
-Drzwi 10
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
-5
-0
-None
-Akcja 2.2
-Wynik 2.2
-0
-20
-None
-Akcja 3.2
-Wynik 3.2
-0
-0
-None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 12
-Drzwi 11
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
-5
-0
-None
-Akcja 2.2
-Wynik 2.2
-0
-20
-None
-Akcja 3.2
-Wynik 3.2
-0
-0
-None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 13
-Drzwi 12
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
-5
-0
-None
-Akcja 2.2
-Wynik 2.2
-0
-20
-None
-Akcja 3.2
-Wynik 3.2
-0
-0
-None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 14
-Drzwi 13
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
-5
-0
-None
-Akcja 2.2
-Wynik 2.2
-0
-20
-None
-Akcja 3.2
-Wynik 3.2
-0
-0
-None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 15
-Drzwi 14
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
-5
-0
-None
-Akcja 2.2
-Wynik 2.2
-0
-20
-None
-Akcja 3.2
-Wynik 3.2
-0
-0
-None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor

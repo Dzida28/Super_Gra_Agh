@@ -23,7 +23,7 @@ x                                                                             x
 x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x""", 0.001)
 
 
-def slow_print(string, sec):
+def slow_print(string, sec, newline=True):
     for i in range(0, len(string) - 2, 3):
         print(string[i:i+3], end="", flush=True)
         time.sleep(sec)
@@ -34,4 +34,5 @@ def slow_print(string, sec):
         print(string[len(string) - 2], end="", flush=True)
         print(string[len(string) - 1], end="", flush=True)
 
-    print("\n")
+    if newline:
+        print("\n")

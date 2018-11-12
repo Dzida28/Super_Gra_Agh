@@ -134,8 +134,8 @@ class Player:
         if len(self.available_weapons) > 0:
             index = random.randint(0, len(self.available_weapons) - 1)
             name = self.available_weapons.pop(index)
-            dmg = random.randint(self.lvl + 3, self.lvl + 7) * 10
-            chance = random.randint(50, 95)
+            dmg = random.randint(self.lvl + 3, self.lvl + 6) * 10
+            chance = random.randint(45, 90)
             crit = random.randint(self.lvl + 1, self.lvl + 10)
             attack_name = self.available_attack_names.pop(index)
             self.add_weapon(name, dmg, chance, crit, attack_name)
@@ -144,23 +144,34 @@ class Player:
     def add_random_armor(self):
         if len(self.available_weapons) > 0:
             name = self.available_armors.pop(random.randint(0, len(self.available_armors) - 1))
-            armor = random.randint(1, 2) * 5
+            armor = random.randint(1, 7) * 2
             self.add_armor(name, armor)
             Addons.slow_print("Otrzymujesz przedmiot: %s (redukcja obrażeń %s%%)" % (name, armor), 0.05)
 
-    def load_names(self, count):
+            dmg_reduction = 0
+            for x in self.armor:
+                dmg_reduction += x.armor
+
+            if dmg_reduction >= 90:
+                Addons.slow_print("Jesteś przeciążony. Musisz pozbyć się przedmiotu %s (redukcja obrażeń %s%%)" %
+                                  (self.armor[0].name, self.armor[0].armor), 0.05)
+                del self.armor[0]
+
+    def load_names(self, amount):
         with open("weapon.txt", encoding='utf-8') as f:
             lines = []
             tmp = 1
             for i, line in enumerate(f):
                 if "..." in line:
                     tmp += 1
-                if tmp > count:
+                if tmp > amount:
                     break
 
-                if tmp > count - 1 and "..." not in line:
+                if tmp > amount - 1 and "..." not in line:
                     lines.append(line.replace("\n", ""))
 
+            if amount == 1:
+                lines[0] = lines[0][lines[0].index("#") + 1:]
             for i in range(0, len(lines) - 1, 3):
                 self.available_weapons.append(lines[i])
                 self.available_attack_names.append(lines[i + 1])
@@ -171,20 +182,22 @@ class Player:
         os.system('cls')
         print("-" * 20)
         print("Statystyki gracza:")
-        print("Poziom %s" % self.lvl)
-        print("Hp %s/%s" % (self.hp, self.max_hp))
-        print("Exp %s/%s\n" % (self.exp, self.lvl * 100))
+        time.sleep(0.2)
+        print("Poziom: %s" % self.lvl)
+        print("Hp: %s/%s" % (self.hp, self.max_hp))
+        print("Exp: %s/%s\n" % (self.exp, self.lvl * 100))
         print("-" * 20 + "\nEkwipunek:")
         for x in range(1, len(self.weapon)):
             print("%s. %s   (dmg %s-%s, chance %s%%, crit %s%%)" % (
                 x, self.weapon[x].name, self.weapon[x].dmg - 10, self.weapon[x].dmg + 10, self.weapon[x].chance, self.weapon[x].crit))
-            time.sleep(0.1)
+            time.sleep(0.2)
 
+        print("---")
         for x in range(0, len(self.armor)):
             print("%s. %s   (redukcja obrażeń %s%%)" % (len(self.weapon) + x, self.armor[x].name, self.armor[x].armor))
-            time.sleep(0.1)
-
-        print("\n" + str(len(self.weapon) + len(self.armor)) + ". Kartka z zapisanym kodem: " + Code.return_known_code())
+            time.sleep(0.2)
+        print("---")
+        print(str(len(self.weapon) + len(self.armor)) + ". Kartka z zapisanym kodem: " + Code.return_known_code())
         input("\n\nWciśnij ENTER, aby kontunuować...")
 
     def save_score(self):

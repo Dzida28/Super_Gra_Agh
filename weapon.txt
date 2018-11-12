@@ -1,4 +1,4 @@
-﻿Dwimerytowy miecz
+﻿#Dwimerytowy miecz
 Cios mieczem
 Dwimerytowa zbroja
 Szabla muszkietera
@@ -14,7 +14,7 @@ Kryształowa dzida
 Pchnięcie dzidą
 Zbroja niedżwiedzia
 Francuska kusza
-wystrzelenie strzały
+Strzał z kuszy
 Papierowa tunika
 Lodowa maczuga
 Cios maczugą

@@ -44,10 +44,22 @@ def return_known_code():
 
 
 def ending(player):
+    sec = 0.005
     while True:
         os.system('cls')
         print("-" * 20)
-        print("Przed Tobą znajdują się duże wrota otwierane kodem, a za Tobą portal.\n\n")
+        Addons.slow_print("""Jesteś w pokoju przeznaczenia\n
+Twoje serce zaczyna bić szybciej. Przed Tobą znajdują się duże straszliwe wrota.
+Wygląda na to że, aby je otworzyć należy podać odpowiedni kod.""", sec, newline=False)
+        if return_known_code() == code:
+            print("\nZnasz już cały kod: " + code)
+        else:
+            print("\nZnasz część cyfr kodu: " + return_known_code())
+
+        Addons.slow_print("""Jednak czy jesteś na tyle odważny aby przekonać się co kryje się za tymi drzwiami?
+Widzisz, że masz też prawdopodobną możliwość powrotu przez ten sam portal,
+z którego tu przyszedłeś.""", sec)
+        sec = 0
         print("Co robisz? (1/2)\n")
         print("1. Próbujesz wpisać kod")
         print("2. Wchodzisz do portalu")
@@ -58,7 +70,7 @@ def ending(player):
                 return 1
 
         elif p == "2":
-            print("Portal przenosi Cię do pokoju startowego.\n\n")
+            Addons.slow_print("Portal przenosi Cię do pokoju startowego.\n", 0.05)
             input("\nWciśnij ENTER, aby kontunuować...")
             return 0
 
@@ -68,8 +80,8 @@ def guess(player):
     code1 = input(">>>")
 
     if code == code1:
-        print("Podałeś właściwy szyfr.")
-        Addons.slow_print("Wrota otwierają się\n" + boss_name + " chce pożreć Twoją duszę!", 0.01)
+        print("Podałeś właściwy Kod.")
+        Addons.slow_print("Wrota otwierają się z wielkim piskiem...\n" + boss_name + " chce pożreć Twoją duszę!", 0.1)
         Addons.slow_print(boss_pict, 0.0001)
         input("\nWciśnij ENTER, aby kontunuować...")
 
