@@ -10,10 +10,10 @@ import pickle
 
 
 class Player:
-    def __init__(self):
+    def __init__(self, max_hp):
         self.exp = 0
         self.lvl = 1
-        self.max_hp = 100
+        self.max_hp = max_hp
         self.hp = self.max_hp
         self.dead = False
         self.weapon = []
@@ -67,8 +67,10 @@ class Player:
                 break
 
             tmp = int(random.randint(10, 25) * ((self.lvl / 6) + 1))
-            Addons.slow_print(enemy_name + " atakuje Cię!", 0.05)
+            Addons.slow_print(enemy_name + " atakuje Cię!", 0.01)
             self.update_hp(tmp)
+            if self.dead:
+                break
 
             input("\n\nWciśnij ENTER, aby kontynuować...")
 
@@ -76,6 +78,7 @@ class Player:
         time.sleep(0.05)
         levelup = False
         old_max_hp = self.max_hp
+        value = int(value * (self.lvl / 10 + 0.9))
 
         self.exp += value
         Addons.slow_print("Dostałeś " + str(value) + " exp", 0.05)
@@ -102,12 +105,13 @@ class Player:
         dmg_reduction = 0
         for x in self.armor:
             dmg_reduction += x.armor
-        value = int(value * (100 - dmg_reduction) / 100)
+        if value > 0:
+            value = int(value * (100 - dmg_reduction) / 100)
 
         self.hp -= value
         if self.hp <= 0:
             Addons.slow_print("Tracisz " + str(value) + " hp", 0.005)
-            print("[*] RIP [*]")
+            print("[*] RIP [*]\n")
             Addons.print_gameover()
             self.save_score()
             self.dead = True
@@ -130,8 +134,8 @@ class Player:
         if len(self.available_weapons) > 0:
             index = random.randint(0, len(self.available_weapons) - 1)
             name = self.available_weapons.pop(index)
-            dmg = random.randint(self.lvl + 2, self.lvl + 6) * 10
-            chance = random.randint(40, 90)
+            dmg = random.randint(self.lvl + 3, self.lvl + 7) * 10
+            chance = random.randint(50, 95)
             crit = random.randint(self.lvl + 1, self.lvl + 10)
             attack_name = self.available_attack_names.pop(index)
             self.add_weapon(name, dmg, chance, crit, attack_name)
@@ -166,12 +170,19 @@ class Player:
     def show_equipment(self):
         os.system('cls')
         print("-" * 20)
+        print("Statystyki gracza:")
+        print("Poziom %s" % self.lvl)
+        print("Hp %s/%s" % (self.hp, self.max_hp))
+        print("Exp %s/%s\n" % (self.exp, self.lvl * 100))
+        print("-" * 20 + "\nEkwipunek:")
         for x in range(1, len(self.weapon)):
             print("%s. %s   (dmg %s-%s, chance %s%%, crit %s%%)" % (
                 x, self.weapon[x].name, self.weapon[x].dmg - 10, self.weapon[x].dmg + 10, self.weapon[x].chance, self.weapon[x].crit))
+            time.sleep(0.1)
 
         for x in range(0, len(self.armor)):
             print("%s. %s   (redukcja obrażeń %s%%)" % (len(self.weapon) + x, self.armor[x].name, self.armor[x].armor))
+            time.sleep(0.1)
 
         print("\n" + str(len(self.weapon) + len(self.armor)) + ". Kartka z zapisanym kodem: " + Code.return_known_code())
         input("\n\nWciśnij ENTER, aby kontunuować...")
@@ -202,7 +213,7 @@ class Player:
         for i in range(0, 3):
             print(str(i + 1) + ". " + str(all_scores[i]))
 
-        if all_scores[3] == score and not all(all_scores) == score:
+        if all_scores[3] == score and not all_scores[2] == score:
             print("...\n4. " + str(score))
 
         all_scores.remove(all_scores[3])

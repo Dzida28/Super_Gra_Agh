@@ -37,7 +37,7 @@ Natychmiast wypuszczasz miecz z r*ak.\nMiecz okazał się objęty klątwą.\nTwo
 25
 None
 Rozglądnij się za przydatnym wyposażeniem
-Wśród starych tępych mieczy, natrafiasz na prawdziwy okaz
+Wśród starych pancerzy i tępych mieczy, natrafiasz na prawdziwy okaz
 10
 0
 Item
@@ -176,9 +176,9 @@ Chwil*e odpoczywasz i jednicze*snie znajdujesz zagatkow*a ksi*a*zeczk*e.\nMo*ze 
 None
 Pom*odl si*e 
 Twoja modlitwa podoba si*e Bogu, kt*ory zsyła na Ciebie błogosławieństwo. 
-0
-0
-Item
+40
+-50
+None
 Podejd*x do o*ltarza
 Z*lote kielichy mog*lyby by*c dobrym *lupem, ale jeste*s honorowym rycerzem, przestrzegaj*acym kodeksu,\nwi*ec zostawiasz je tam gdzie le*z*a.
 20
@@ -272,7 +272,7 @@ Masz szcz*e*scie. W k*acie zauwa*zasz co*s bardzo przydatnego.
 0
 Item
 Przejd*x si*e po pomieszczeniu
-Chcesz sprawdzi*c czy aby nic nie umkn*e*lo Twojej uwagi.\nId*ac asekuracyjnie przytrzymujesz si*e *sciany i rozcinasz sobie r*ek*e o wystaj*acy gw*o*x*c.
+Chcesz sprawdzi*c czy aby nic nie umkn*e*lo Twojej uwagi.\nId*ac asekuracyjnie przytrzymujesz si*e *sciany i rozcinasz sobie r*ek*e o wystaj*acy gwóźdź.
 0
 15
 None 
@@ -317,7 +317,7 @@ Na Toaletce stoi du*ze lustro. Przegl*adasz po kolei szufladki z bi*zuteri*a i z
 0
 0
 Duch kr*olowej
-Zbadaj przestrze*n pod *lu*zkiem
+Zbadaj przestrze*n pod łóżkiem
 Zagl*adasz pod to jak*ze nienaturalnie du*ze *lo*ze.\nJednak opr*ocz paj*aka, kt*ory gryzie Cię w palec nie ma tam nic.
 0
 15

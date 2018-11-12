@@ -67,7 +67,7 @@ class Action:
                     Addons.slow_print(Code.get_rand_num(), 0.05)
 
                 if self.encounter[num][:4] == "Item":
-                    if random.randint(0, len(player.available_armors) + len(player.available_weapons)) > len(player.available_armors):
+                    if random.randint(1, len(player.available_armors) + len(player.available_weapons)) + 1 > len(player.available_armors):
                         player.add_random_weapon()
                     else:
                         player.add_random_armor()

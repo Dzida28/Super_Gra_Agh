@@ -1,4 +1,4 @@
-﻿#Celi
+﻿#﻿Celi
 Budzisz się. Boli Cię głowa, nie pami*etasz jak si*e tu znalazłeś.\nPewnie kt*ore*s z zak*l*e*c nie zadzia*la*lo jak nale*zy. Jedna tylko my*sl pulsuje Ci w g*lowie.\nMusisz wydosta*c si*e z tego miejsca.\nDopiero teraz rozgl*adasz si*e po pomieszczeniu. Jest to rodzaj celi. Zimnej i wilgotnej.\nWstajesz, podchodzisz do drzwi i chwytasz za klamk*e. O dziwo drzwi nie s*a zamkni*ete.\nNie wierzysz w*lasnemu szcz*e*sciu. Wybiegasz w ciemno*s*c…
 D*lugim korytarzu
 Pusta dziura o regularnym kszta*lcie
@@ -142,7 +142,7 @@ Sali tortur
 Stalowe wzmocnione drzwi
 Przechodzisz przez pr*og i od razu wyczuwasz ponur*a aur*e tego miejsca, kto*s tutaj cierpia*l, wielokrotnie.\nTo pomieszczenie jest a*z przesi*akni*ete cierpieniem i b*olem.\nNa *srodku znajduje si*e st*o*l do rozci*agania, pod *scian*a krzes*lo z pasami na pod*lokietnikach i nogach.\nZ sufitu zwisaj*a haki, a na ziemi le*z*a r*o*zne oc*egi.\nWszystko poplamione jest zaschni*et*a krwi*a, nie tylko ludzk*a.\nJest to zdecydowanie sala tortur.
 Podejd*x do sto*lu
-Na stole znajdujesz magiczny artefakt, be*dzie przydatny w walce.
+Na stole znajdujesz magiczny artefakt, będzie przydatny w walce.
 0
 0
 Item

@@ -13,6 +13,7 @@ def generate(amount):
     global code
     global unknown
     code = ""
+    unknown = []
     for i in range(amount):
         code += str(r.randint(1, 9))
 
@@ -68,20 +69,21 @@ def guess(player):
 
     if code == code1:
         print("Podałeś właściwy szyfr.")
-        print("Wrota otwierają się\n" + boss_name + " chce pożreć Twoją duszę!")
+        Addons.slow_print("Wrota otwierają się\n" + boss_name + " chce pożreć Twoją duszę!", 0.01)
         Addons.slow_print(boss_pict, 0.0001)
         input("\nWciśnij ENTER, aby kontunuować...")
 
         player.attack(boss_name, r.randint(8 + player.lvl, 13 + player.lvl) * 10)
-        Addons.print_congrats()
-        print("\nKONIEC GRY")
-        player.save_score()
-        input("\nWciśnij ENTER, aby kontunuować...")
+        if not player.dead:
+            Addons.print_congrats()
+            print("\nKONIEC GRY")
+            player.save_score()
+            input("\nWciśnij ENTER, aby kontunuować...")
         os.system('cls')
         return 1
 
     else:
-        print("Zły kod.\nZ podłogi wysuwają się kłujące kolce.\n")
+        print("\nZły kod.\nZ podłogi wysuwają się kłujące kolce.\n")
         player.update_hp(10)
         input("\nWciśnij ENTER, aby kontunuować...")
         return 0
