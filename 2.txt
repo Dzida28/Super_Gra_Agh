@@ -84,7 +84,7 @@ Nie znalaz*le*s nic ciekawego, straci*le*s tylko czas.
 None 
 Podnie*s tabliczk*e z posadzki
 Na tabliczce znajduje si*e wiadomo*s*c w j*ezyku nimf, a poni*zej napis:
-0
+30
 0
 Code
 Rozbij figurk*e syreny
@@ -102,7 +102,7 @@ Na o*ltarzu le*zy kilka fiolek z napisem “Oto podmuch Jego pot*egi, kto spo*zy
 None
 Zbadaj *sciany
 *sciany s*a pokryte rozci*agni*etym pismem wygl*adaj*acym jakby kto*s bez przerwy dmucha*l na atrament. Udaje Ci si*e odczyta*c napis:
-0
+30
 0
 Code
 Poszukaj *xr*od*la wiatru
@@ -125,7 +125,7 @@ Spadasz bez ko*nca, to zak*l*eta dziura. Przez reszt*e *zycia *za*lujesz tej dec
 None
 Przeczytaj napisy
 S*a to bez w*atpienia wskaz*owki zapisane krasnoludzkimi runami. Udaje Ci si*e odzczyta*c tak*ze napis:
-10
+30
 0
 Code
 Podnie*s artefakt
@@ -158,7 +158,7 @@ Jest to specjalne serum, kt*ore dzia*la leczniczo uniemo*zliwiaj*ac ofiarom prze
 None
 Obejrzyj znaki napisane krwi*a
 Możesz odczyta*c napis:
-0
+30
 0
 Code
 Magazynie
@@ -166,7 +166,7 @@ Dwuskrzyd*lowe duże drzwi
 Wchodzisz do pomieszczenia pe*lnego rega*l*ow i pude*l oraz innych rupieci.\nCzujesz zapach st*echlizy i starych mebli.
 Podejd*x do sekretarzyka.
 W szufladzie sekreta*zyka znajdujesz list z napisem:
-0
+30
 0
 Code
 Zbadaj biurko.

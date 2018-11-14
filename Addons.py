@@ -64,11 +64,10 @@ def print_welcome():
 def credits():
     slow_print("""Twórcy:
     Wojciech Zamarski
-    Nikodem Olejniacz
+    Nikodem Oleniacz
     Władysław Sokołowski
-    Hieronim Dzieślewski""", 0.1)
+    Hieronim Dzieślewski""", 0.08)
     input("\nWciśnij ENTER, aby kontunuować...")
-    os.system('cls')
 
 
 def menu(sec):
@@ -87,17 +86,34 @@ def score_table():
             pickle.dump([0, 0, 0], file)
         file.close()
 
-    file = open("scores.dat", "rb")
-    all_scores = pickle.load(file)
-    file.close()
+    while True:
+        file = open("scores.dat", "rb")
+        all_scores = pickle.load(file)
+        file.close()
 
-    all_scores.sort(reverse=True)
+        all_scores.sort(reverse=True)
 
-    print("Tabela wyników:")
-    for i in range(0, 3):
-        print(str(i + 1) + ". " + str(all_scores[i]))
-    input("\nWciśnij ENTER, aby kontunuować...")
-    os.system('cls')
+        print("Tabela wyników:")
+        for i in range(0, 3):
+            slow_print(str(i + 1) + ". " + str(all_scores[i]) + "\n", 0.03, newline=False)
+
+        print("\nWciśnij ENTER, aby kontunuować...")
+        p = input("...lub wpisz \"reset\" i wciśnij ENTER, aby zresetować tabelę wyników\n")
+
+        if p.upper() == "RESET":
+            file = open("scores.dat", "wb")
+            for i in range(3):
+                pickle.dump([0, 0, 0], file)
+            file.close()
+            os.system('cls')
+        else:
+            break
+
+
+def counting():
+    print("\n")
+    for i in range(3):
+        slow_print(str(3 - i) + "...\n", 1, newline=False)
 
 
 def slow_print(string, sec, newline=True):

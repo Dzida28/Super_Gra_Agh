@@ -61,7 +61,7 @@ class Player:
                 Addons.slow_print("\nChybiłeś", 0.05)
 
             if enemy_hp <= 0:
-                tmp = random.randint(int(senemy_hp * (self.lvl / 10 + 1)) - 20, int(senemy_hp * (self.lvl / 10 + 1)))
+                tmp = random.randint(int(senemy_hp * (self.lvl / 10 + 1)) - 40, int(senemy_hp * (self.lvl / 10 + 1)))
                 Addons.slow_print("Wygrałeś!", 0.05)
                 self.update_lvl(tmp)
                 break
@@ -78,7 +78,7 @@ class Player:
         time.sleep(0.05)
         levelup = False
         old_max_hp = self.max_hp
-        value = int(value * (self.lvl / 10 + 0.9))
+        value = int(value * (self.lvl / 4 + 0.75))
 
         self.exp += value
         Addons.slow_print("Dostałeś " + str(value) + " exp", 0.05)
@@ -109,7 +109,7 @@ class Player:
             value = int(value * (100 - dmg_reduction) / 100)
 
         self.hp -= value
-        if self.hp <= 0:
+        if self.hp < 0:
             Addons.slow_print("Tracisz " + str(value) + " hp", 0.005)
             print("[*] RIP [*]\n")
             Addons.print_gameover()
@@ -195,15 +195,15 @@ class Player:
                 x, self.weapon[x].name, self.weapon[x].dmg - 10, self.weapon[x].dmg + 10, self.weapon[x].chance, self.weapon[x].crit))
             time.sleep(0.2)
 
-        print("---")
+        print("...")
         for x in range(0, len(self.armor)):
             print("%s. %s   (redukcja obrażeń %s%%)" % (len(self.weapon) + x, self.armor[x].name, self.armor[x].armor))
             time.sleep(0.2)
-        print("---")
+        print("...")
         print(str(len(self.weapon) + len(self.armor)) + ". Kartka z zapisanym kodem: " + Code.return_known_code())
         input("\n\nWciśnij ENTER, aby kontunuować...")
 
-    def save_score(self):
+    def save_score(self, multiple=1):
         if not os.path.isfile("scores.dat"):
             file = open("scores.dat", "wb")
             for i in range(3):
@@ -216,6 +216,7 @@ class Player:
         score -= 100
 
         score += (len(self.weapon) - 2) * 50 + (len(self.armor) - 1) * 50
+        score = int(score * multiple)
         print("\nZdobyłeś %s punktów!\n" % score)
 
         file = open("scores.dat", "rb")

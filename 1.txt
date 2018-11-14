@@ -194,7 +194,7 @@ Z zainteresowaniem ogl*adasz kolejne p*o*lki z ksi*a*zkami.\nJedna szczeg*olnie 
 None
 Zbadaj rega*l po lewej
 Wszystkie ksi*a*zki wydaj*a ci si*e podobne. Opr*ocz jednej.\nOtwierasz j*a i przegl*adasz. Jedna strona jest zupe*lnie pusta i widnieje na niej napis:
-0
+30
 0
 Code
 Zbadaj szuflady w biurku
@@ -258,7 +258,7 @@ Tajemne przej*scie ukryte w *scianie
 Znajdujesz si*e w ma*lym pomieszczeniu. Jest tu zaledwie kilka przedmiot*ow.\nWarto sprawdzi*c czy co*s ci si*e nie przyda.
 Zbadaj stolik
 Na stoliku nie ma w zasadzie niczego opr*ocz ka*lamarza i pi*ora. Zagl*adasz jeszcze pod blat.\nMasz szcz*e*scie, *ze na to wpad*le*s, bo dostrzegasz wyryty napis:
-0
+30
 0
 Code
 Zbadaj szafk*e 

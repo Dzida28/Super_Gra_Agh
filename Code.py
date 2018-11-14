@@ -7,6 +7,7 @@ code = ""
 unknown = []
 boss_name = ""
 boss_pict = ""
+difficulty = 1
 
 
 def generate(amount):
@@ -45,6 +46,9 @@ def return_known_code():
 
 def ending(player):
     sec = 0.005
+    Addons.counting()
+    Addons.slow_print("\nWylądowałeś w pokoju przeznaczenia!", 0.05)
+    input("\nWciśnij ENTER, aby kontunuować...")
     while True:
         os.system('cls')
         print("-" * 20)
@@ -70,6 +74,7 @@ z którego tu przyszedłeś.""", sec)
                 return 1
 
         elif p == "2":
+            Addons.counting()
             Addons.slow_print("Portal przenosi Cię do pokoju startowego.\n", 0.05)
             input("\nWciśnij ENTER, aby kontunuować...")
             return 0
@@ -85,12 +90,12 @@ def guess(player):
         Addons.slow_print(boss_pict, 0.0001)
         input("\nWciśnij ENTER, aby kontunuować...")
 
-        player.attack(boss_name, r.randint(50 + player.lvl * 50, 100 + player.lvl * 50))
+        player.attack(boss_name, 50 + player.lvl * 50)
         if not player.dead:
-            Addons.slow_print("Odzyskałeś wolność", 0.05)
+            Addons.slow_print("Odzyskałeś wolność...", 0.05)
             Addons.print_congrats()
             print("\nKONIEC GRY")
-            player.save_score()
+            player.save_score(difficulty)
             input("\nWciśnij ENTER, aby kontunuować...")
         os.system('cls')
         return 1

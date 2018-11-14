@@ -51,7 +51,7 @@ Kamienne wej*scie zamykane opuszczan*a krat*a.
 Wzdrygasz si*e. W k*acie pod *scian*a zauwa*zasz szcz*atki ko*sci nieznanego pochodzenia.\nJest bardzo wilgotno i duszno. Z sufitu skapuje woda.\nNa pierwszy rzut oka nie ma tu nic co mog*loby ci si*e przyda*c.\nJednak po chwili, gdy oczy nieco przyzwyczajaj*a si*e do panuj*acego tu p*o*lmroku dostrzegasz zapisan*a na *scianie wapnem cyfr*e.
 Podejd*x do *sciany
 Podchodz*ac potykasz si*e o le*z*acy na pod*lodze gruz. Zrani*le*s si*e w kolano.\nTeraz jednak mo*zesz odczyta*c napis na *scianie:
-0
+30
 10
 Code
 Zbadaj krat*e 
@@ -107,7 +107,7 @@ Otwierasz szafk*e w nadziei znalezienia jakiego*s jedzenia, ale jedyne co ukazuj
 None
 Otw*orz klap*e w pod*lodze
 Potykasz si*e i wpadasz do niewielkiej jamy.\nLe*zysz na przegni*lych ziemniakach. Mocno si*e pot*luk*le*s, ale op*laci*lo si*e.\nObok Ciebie le*zy karteczka z cyfr*a:
-5
+30
 5
 Code
 Zajrzyj do wielkiego garnka
@@ -194,7 +194,7 @@ Z zainteresowaniem ogl*adasz kolejne p*o*lki z ksi*a*zkami.\nJedna szczeg*olnie 
 None
 Zbadaj rega*l po lewej
 Wszystkie ksi*a*zki wydaj*a ci si*e podobne. Opr*ocz jednej.\nOtwierasz j*a i przegl*adasz. Jedna strona jest zupe*lnie pusta, widnieje na niej tylko jeden napis:
-0
+30
 0
 Code
 Zbadaj szuflady w biurku
@@ -249,12 +249,17 @@ Nie wiesz po co, ale wyrzucasz podniesiony z ziemi kamie*n. Mija chwila.\nNajdzi
 0
 10
 None
+Wezwij duchy przodków
+Wypowiadasz zaklęcia niegdyś zasłyszane od pewnego mędrca. Nic się nie dzieje.\nPróbujesz jeszcze raz tym razem wydzierając się na całą okolicę.\nJednak miałeś rację. Te czary mary to zwykłe bzdury.
+0
+0
+None
 Ukrytej komnacie
 Tajemne przej*scie ukryte w *scianie
 Znajdujesz si*e w ma*lym pomieszczeniu. Jest tu zaledwie kilka przedmiot*ow.\nWarto sprawdzi*c czy co*s ci si*e nie przyda.
 Zbadaj stolik
 Na stoliku nie ma w zasadzie niczego opr*ocz ka*lamarza i pi*ora. Zagl*adasz jeszcze pod blat.\nMasz szcz*e*scie, *ze na to wpad*le*s, bo dostrzegasz wyryty napis:
-0
+30
 0
 Code
 Przeszukaj szafk*e 
