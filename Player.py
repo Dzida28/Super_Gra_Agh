@@ -109,7 +109,7 @@ class Player:
             value = int(value * (100 - dmg_reduction) / 100)
 
         self.hp -= value
-        if self.hp < 0:
+        if self.hp <= 0:
             Addons.slow_print("Tracisz " + str(value) + " hp", 0.005)
             print("[*] RIP [*]\n")
             Addons.print_gameover()
