@@ -66,7 +66,7 @@ z którego tu przyszedłeś.""", sec)
         p = input(">>>")
 
         if p == "1":
-            if guess(player) == 1:
+            if guess(player) == 1 or player.dead:
                 return 1
 
         elif p == "2":
@@ -85,8 +85,9 @@ def guess(player):
         Addons.slow_print(boss_pict, 0.0001)
         input("\nWciśnij ENTER, aby kontunuować...")
 
-        player.attack(boss_name, r.randint(8 + player.lvl, 13 + player.lvl) * 10)
+        player.attack(boss_name, r.randint(50 + player.lvl * 50, 100 + player.lvl * 50))
         if not player.dead:
+            Addons.slow_print("Odzyskałeś wolność", 0.05)
             Addons.print_congrats()
             print("\nKONIEC GRY")
             player.save_score()
@@ -97,5 +98,6 @@ def guess(player):
     else:
         print("\nZły kod.\nZ podłogi wysuwają się kłujące kolce.\n")
         player.update_hp(10)
-        input("\nWciśnij ENTER, aby kontunuować...")
-        return 0
+        if not player.dead:
+            input("\nWciśnij ENTER, aby kontunuować...")
+            return 0

@@ -1,4 +1,6 @@
 import time
+import os
+import pickle
 
 
 def print_gameover():
@@ -23,9 +25,84 @@ x                                                                             x
 x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x""", 0.001)
 
 
+def print_welcome():
+    slow_print("""
+ __          ________ _      _____ ____  __  __ ______ 
+ \ \        / /  ____| |    / ____/ __ \|  \/  |  ____|
+  \ \  /\  / /| |__  | |   | |   | |  | | \  / | |__   
+   \ \/  \/ / |  __| | |   | |   | |  | | |\/| |  __|  
+    \  /\  /  | |____| |___| |___| |__| | |  | | |____ 
+     \/  \/   |______|______\_____\____/|_|  |_|______|
+                      _______ ____  
+                     |__   __/ __ \ 
+                        | | | |  | |
+                        | | | |  | |
+                        | | | |__| |
+                        |_|  \____/  """, 0.001)
+    time.sleep(1)
+    os.system('cls')
+    slow_print(""" 
+              __  ____     _______ _______ _____ _____ 
+             |  \/  \ \   / / ____|__   __|_   _/ ____|
+             | \  / |\ \_/ / (___    | |    | || |     
+             | |\/| | \   / \___ \   | |    | || |     
+             | |  | |  | |  ____) |  | |   _| || |____ 
+             |_|  |_|  |_| |_____/   |_|  |_____\_____|
+           _______      ________ _   _ _______ _    _ _____  ______ 
+     /\   |  __ \ \    / /  ____| \ | |__   __| |  | |  __ \|  ____|
+    /  \  | |  | \ \  / /| |__  |  \| |  | |  | |  | | |__) | |__   
+   / /\ \ | |  | |\ \/ / |  __| | . ` |  | |  | |  | |  _  /|  __|  
+  / ____ \| |__| | \  /  | |____| |\  |  | |  | |__| | | \ \| |____ 
+ /_/    \_\_____/   \/   |______|_| \_|  |_|   \____/|_|  \_\______|
+
+
+    """, 0.001)
+    time.sleep(1)
+    os.system('cls')
+
+
+def credits():
+    slow_print("""Twórcy:
+    Wojciech Zamarski
+    Nikodem Olejniacz
+    Władysław Sokołowski
+    Hieronim Dzieślewski""", 0.1)
+    input("\nWciśnij ENTER, aby kontunuować...")
+    os.system('cls')
+
+
+def menu(sec):
+    print("-"*20)
+    slow_print("""        MENU
+1. START
+2. TABELA WYNIKÓW
+3. TWÓRCY
+4. WYJDŹ""", sec)
+
+
+def score_table():
+    if not os.path.isfile("scores.dat"):
+        file = open("scores.dat", "wb")
+        for i in range(3):
+            pickle.dump([0, 0, 0], file)
+        file.close()
+
+    file = open("scores.dat", "rb")
+    all_scores = pickle.load(file)
+    file.close()
+
+    all_scores.sort(reverse=True)
+
+    print("Tabela wyników:")
+    for i in range(0, 3):
+        print(str(i + 1) + ". " + str(all_scores[i]))
+    input("\nWciśnij ENTER, aby kontunuować...")
+    os.system('cls')
+
+
 def slow_print(string, sec, newline=True):
     for i in range(0, len(string) - 2, 3):
-        print(string[i:i+3], end="", flush=True)
+        print(string[i:i + 3], end="", flush=True)
         time.sleep(sec)
 
     if len(string) % 3 == 1:

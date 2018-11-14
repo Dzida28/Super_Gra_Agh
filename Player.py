@@ -136,7 +136,7 @@ class Player:
             name = self.available_weapons.pop(index)
             dmg = random.randint(self.lvl + 3, self.lvl + 6) * 10
             chance = random.randint(45, 90)
-            crit = random.randint(self.lvl + 1, self.lvl + 10)
+            crit = random.randint(self.lvl + 1, self.lvl + 15)
             attack_name = self.available_attack_names.pop(index)
             self.add_weapon(name, dmg, chance, crit, attack_name)
             Addons.slow_print("Otrzymujesz przedmiot: %s (dmg %s-%s, chance %s%%, crit %s%%)" % (name, dmg - 10, dmg + 10, chance, crit), 0.05)
@@ -148,14 +148,17 @@ class Player:
             self.add_armor(name, armor)
             Addons.slow_print("Otrzymujesz przedmiot: %s (redukcja obrażeń %s%%)" % (name, armor), 0.05)
 
-            dmg_reduction = 0
-            for x in self.armor:
-                dmg_reduction += x.armor
+            while True:
+                dmg_reduction = 0
+                for x in self.armor:
+                    dmg_reduction += x.armor
 
-            if dmg_reduction >= 90:
-                Addons.slow_print("Jesteś przeciążony. Musisz pozbyć się przedmiotu %s (redukcja obrażeń %s%%)" %
-                                  (self.armor[0].name, self.armor[0].armor), 0.05)
-                del self.armor[0]
+                if dmg_reduction >= 90:
+                    Addons.slow_print("Jesteś przeciążony. Musisz pozbyć się przedmiotu %s (redukcja obrażeń %s%%)" %
+                                      (self.armor[0].name, self.armor[0].armor), 0.05)
+                    del self.armor[0]
+                else:
+                    break
 
     def load_names(self, amount):
         with open("weapon.txt", encoding='utf-8') as f:
